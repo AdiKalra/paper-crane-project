@@ -1,0 +1,47 @@
+/* container class holds all of elements except the nav bar */
+.container {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+}
+
+/* Current clients' info */
+.clientRows {
+  display: flex;
+  width: 700px;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 100px;
+}
+
+/* Columns from clientRows */
+.column {
+  flex-grow: 2;
+  flex-basis: 0;
+  display: flex;
+  align-items: center;
+}
+
+.columnHeader {
+  flex-grow: 1.7;
+  flex-basis: 0;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.buttonColumn {
+  flex-grow: 0.7;
+  flex-basis: 0;
+  font-weight: bold;
+}
+
+/* Create account part */
+.CreateClientAccount {
+  padding-left: 100px;
+}
+
+/* Edit account part */
+.EditClientAccount {
+  padding-left: 100px;
+}

@@ -1,0 +1,6 @@
+.row {
+  display: flex;
+  height: 200px;
+  align-items: center;
+  gap: 200px;
+}

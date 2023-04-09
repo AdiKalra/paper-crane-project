@@ -1,0 +1,23 @@
+.status-box {
+  height: 15px;
+  width: 15px;
+  content: '';
+  border-radius: 50%;
+  border: 1px solid transparent;
+}
+.status-box:hover {
+  cursor: pointer;
+}
+.task {
+  display: grid;
+  grid-template-columns: 10% 40% 40% auto;
+  align-items: center;
+}
+.edit {
+  width: fit-content;
+  margin: 0 auto;
+}
+.edit:hover {
+  cursor: pointer;
+  background-color: #fff;
+}

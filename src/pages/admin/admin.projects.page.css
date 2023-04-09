@@ -1,0 +1,15 @@
+.content--container {
+  padding-bottom: 40px;
+  font-size: 1.2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: auto auto;
+  /* box-shadow: 2px 2px 2px #e0dfdf, -2px -2px 2px #e0dfdf, 0px 2px 2px #e0dfdf, 2px 0px 2px #e0dfdf,
+    0px -2px 2px #e0dfdf, -2px 0px 2px #e0dfdf, -2px 2px 2px #e0dfdf, 2px -2px 2px #e0dfdf;
+  border-radius: 10px; */
+}

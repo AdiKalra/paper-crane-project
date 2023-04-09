@@ -1,0 +1,16 @@
+.calendar {
+  margin-top: 100px;
+  margin-bottom: 300px;
+}
+
+/* fc class is a default size from full calendar */
+.fc {
+  margin: 0 auto;
+  margin-right: 250px;
+  margin-left: 250px;
+}
+
+:root {
+  --fc-highlight-color: gray;
+  --fc-today-bg-color: #ebedef;
+}

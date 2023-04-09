@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: 'proxima-nova', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+.justify-center {
+  width: 70vw;
+  margin: 0 auto;
+}
+
+.flex-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+a {
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+  font-family: 'proxima-nova', sans-serif;
+  font-weight: 450;
+  font-style: normal;
+}
+
+.profile--container {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* profile--container button is for header button css */
+.profile--container button {
+  width: fit-content;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 60px;
+  background-color: #fff;
+  border: 0;
+  font-size: 1.2rem;
+}

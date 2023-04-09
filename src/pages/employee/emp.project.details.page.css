@@ -1,0 +1,26 @@
+.title {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.task-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px 30px;
+}
+.task {
+  display: grid;
+  grid-template-columns: 10% 40% 40% auto;
+  align-items: center;
+}
+
+.projectInfo {
+  font-size: 9px;
+}
+
+.container {
+  display: flex;
+  gap: 100px;
+}

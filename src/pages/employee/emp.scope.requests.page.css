@@ -1,0 +1,37 @@
+.row {
+  display: flex;
+  height: 200px;
+  align-items: center;
+  gap: 200px;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.scopeRequestsTitle {
+  margin-bottom: 18px;
+}
+
+.scope {
+  display: flex;
+  gap: 10px;
+}
+
+.columnSmall {
+  flex-basis: 0;
+  flex-grow: 2;
+}
+.columnMedium {
+  flex-basis: 0;
+
+  flex-grow: 4;
+}
+.columnLarge {
+  flex-basis: 0;
+
+  flex-grow: 8;
+}

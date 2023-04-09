@@ -1,0 +1,43 @@
+.admin-details-container {
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin: 30px auto;
+}
+.admin-row {
+  width: 100%;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 20% 40% 30% 10%;
+}
+.admin-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.delete-btn:hover {
+  cursor: pointer;
+}
+.edit-btn:hover {
+  background-color: #100e0e69;
+  color: #fff;
+  cursor: pointer;
+}
+.align-center {
+  text-align: center;
+}
+
+.button-row {
+  display: flex;
+  gap: 20px;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.space {
+  display: flex;
+  justify-content: flex-end;
+}

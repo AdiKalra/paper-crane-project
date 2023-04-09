@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "baseUrl": "src",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "strict": false,
+    "noImplicitUseStrict": true
+  },
+  "include": ["src", "custom.d.ts"],
+  "exclude": ["node_modules"]
+}

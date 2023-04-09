@@ -1,0 +1,33 @@
+.AdminNavBar {
+  max-width: 1000px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px auto 90px;
+  border-radius: 20px;
+  font-family: 'proxima-nova', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.AdminNavBar > a {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  height: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  color: #000;
+}
+.AdminNavBar > a:hover {
+  text-decoration: underline;
+}
+.active {
+  text-decoration: underline;
+}

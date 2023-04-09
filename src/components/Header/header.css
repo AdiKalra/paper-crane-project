@@ -1,0 +1,46 @@
+/* .superadmin-btn {
+  height: 50px;
+  width: fit-content;
+  padding: 5px 20px;
+  background-color: #5b585869;
+  border: 0;
+  border-radius: 20px;
+} */
+.header--container {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85vw;
+  margin: 10px auto 0;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  height: 80px;
+  padding: 0 20px;
+  border-radius: 20px;
+}
+
+.invertedLogo {
+  filter: invert(100%);
+}
+
+.profile--container {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.profile--container > button {
+  width: fit-content;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 60px;
+  background-color: #fff;
+  border: 0;
+  font-size: 1.2rem;
+}
