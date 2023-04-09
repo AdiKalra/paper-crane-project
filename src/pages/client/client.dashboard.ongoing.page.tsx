@@ -3,7 +3,6 @@ import CheckPendingRequestModal from 'components/CheckPendingRequestModal/CheckP
 import DashboardHeader from 'components/Header/dashboardHeader';
 import SendRequestModal from 'components/SendRequestModal/SendRequestModal';
 import React, { useState } from 'react';
-import { v4 as uuidv4 } from 'uuid';
 
 import './client.dashboard.ongoing.page.css';
 
@@ -12,19 +11,19 @@ const ClientDashboardOnGoingPage = () => {
   const [isCheckPendingRequestModalOpen, setIsCheckPendingRequestModalOpen] = useState(false);
   const [scopes, setScopes] = useState([
     {
-      id: uuidv4(),
+      id: 1,
       name: 'Login Page with Google Signin',
     },
     {
-      id: uuidv4(),
+      id: 2,
       name: 'Products page',
     },
     {
-      id: uuidv4(),
+      id: 3,
       name: 'User profile page',
     },
     {
-      id: uuidv4(),
+      id: 4,
       name: 'Shopping cart page',
     },
   ]);
