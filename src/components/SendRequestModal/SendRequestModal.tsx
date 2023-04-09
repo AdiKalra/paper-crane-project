@@ -1,6 +1,6 @@
 import { Button, Input, Modal } from 'antd';
 import React from 'react';
-import { v4 as uuidv4 } from 'uuid';
+// import { v4 as uuidv4 } from 'uuid';
 
 interface IAddedScope {
   id: string;
@@ -53,7 +53,7 @@ const SendRequestModal = ({ isModalOpen, handleOk, handleCancel, onChangeScopes,
               const newScopes = [
                 ...addedScopes,
                 {
-                  id: uuidv4(),
+                  id: String(addedScopes.length + 1),
                   name: newScope,
                 },
               ];
